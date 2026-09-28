@@ -4,7 +4,7 @@
   --primary: #b9a591;
   --primary-ink: #fff;
   --secondary: #e9e1d9;
-  --accent: #b08a3e;
+  --accent: #7a5250;
   --line: #dad5c6;
   --line-on-primary: rgba(237, 234, 224, 0.22);
 }
@@ -16,7 +16,7 @@
     --primary: #b9a591;
     --primary-ink: #fff;
     --secondary: #e9e1d9;
-    --accent: #b08a3e;
+    --accent: #7a5250;
     --line: #dad5c6;
   }
 }
