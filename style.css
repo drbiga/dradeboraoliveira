@@ -383,6 +383,20 @@ h1.hero-title em {
 /* location */
 .location {
   padding: 88px 0 96px;
+  overflow: hidden;
+}
+
+.map-wrap {
+  background-color: var(--secondary);
+  padding: 25px;
+  margin: -88px -500px -96px 0px;
+}
+
+.map {
+  border-radius: 15px;
+  box-shadow: 10px 10px 50px #3339;
+  max-width: 80%;
+  margin: 0px 0px 0px -5%;
 }
 
 .loc-grid {
@@ -390,6 +404,7 @@ h1.hero-title em {
   grid-template-columns: 1fr 1fr;
   gap: 56px;
   align-items: center;
+  height: 100%;
 }
 
 .loc-grid h2 {
@@ -412,12 +427,21 @@ h1.hero-title em {
 .pin {
   display: flex;
   justify-content: center;
+  /* height: 400px; */
+  /* overflow: hidden; */
 }
 
-.pin svg {
+/* .pin svg {
   width: min(220px, 60vw);
   height: auto;
   color: var(--primary);
+} */
+
+.pin img {
+  /* width: 1000px; */
+  height: 400px;
+  box-shadow: 5px 5px 10px #555;
+  border-radius: 5px;
 }
 
 /* footer */
@@ -559,7 +583,23 @@ button:focus-visible {
     text-align: left;
   }
 
+  .map-wrap {
+    background-color: inherit;
+    padding: 0px;
+    margin: 0px;
+    /* margin: -88px -500px -96px 0px; */
+  }
+
+  .map {
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px #3339;
+    max-width: 100%;
+    margin: 0px;
+    /* margin: 0px 0px 0px -50px; */
+  }
+
   .pin {
     order: -1;
+    width: 100%;
   }
 }
