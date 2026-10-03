@@ -618,6 +618,7 @@ h1.hero-title em {
 .home-blog { padding: 56px 0 64px; border-top: 1px solid var(--line); }
 .home-blog .sec-head { margin-bottom: 24px; }
 .home-blog-list { display: grid; grid-template-columns: 1fr; }
+.post-card { border-bottom: 1px solid var(--line); padding: 1rem 0;}
 .post-card h3 { font-size: 1.25rem; margin: 6px 0 8px; }
 .post-card:hover h3 { color: var(--accent); }
 
