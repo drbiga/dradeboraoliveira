@@ -628,6 +628,7 @@ h1.hero-title em {
   .home-blog-list { grid-template-columns: repeat(3, 1fr); gap: 24px; }
   .home-blog-list .post-card,
   .home-blog-list .post-card:last-child {
+    text-decoration: none;
     padding: 28px;
     border: 1px solid var(--line);
     border-radius: 2px;
